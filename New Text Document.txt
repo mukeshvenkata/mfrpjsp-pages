@@ -1,0 +1,18 @@
+Accounts:
+
+User_name varchar(),password varchar,user_role varchar()
+
+Order_details
+
+id varchar(),amount double,price double,quantity int,order_id varchar(),product_id varchar()
+
+Orders:
+
+id varchar(),Amount double,Cus-Address varchar(),cus_email varchar(),Customer_name varchar(),cus_phone varchar(),order_date date,order_num int
+
+Products:
+
+Code varchar(),Create_date date,image image,name varchar(),price double
+
+Cartinfo.java:
+
